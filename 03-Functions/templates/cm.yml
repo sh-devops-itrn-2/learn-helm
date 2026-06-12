@@ -4,3 +4,4 @@ metadata:
   name: helm-02
 data:
   my_number:  {{ .Values.my_number | quote }}
+  my_age: {{ .Values.my_age }}
