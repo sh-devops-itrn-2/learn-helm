@@ -7,3 +7,5 @@ data:
   release_service: {{ .Release.Service }}
   Chart: {{ .Chart.Name}}-{{ .Chart.Version }}
   Template: {{ .Template.Name}}
+  code: |-
+{{ .Files.Get "files/sample.conf" | nindent 4 }}
