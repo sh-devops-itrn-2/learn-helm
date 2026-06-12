@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: helm-02
+data:
+  my_number:  {{ .Values.my_number }}
