@@ -5,3 +5,4 @@ metadata:
 data:
   release_name: {{ .Release.Name }}
   release_service: {{ .Release.Service }}
+  Chart: {{ .Chart.Name}}-{{ .Chart.Version }}
